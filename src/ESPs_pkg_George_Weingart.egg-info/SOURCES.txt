@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/ESPs_package/ESPs.py
+src/ESPs_package/__init__.py
+src/ESPs_package/data/ESPs.json
+src/ESPs_package/data/test.fasta
+src/ESPs_pkg_George_Weingart.egg-info/PKG-INFO
+src/ESPs_pkg_George_Weingart.egg-info/SOURCES.txt
+src/ESPs_pkg_George_Weingart.egg-info/dependency_links.txt
+src/ESPs_pkg_George_Weingart.egg-info/top_level.txt
