@@ -1,4 +1,4 @@
-ESPs:   Enzymatic Specific Peptides
+SPs:   Enzymatic Specific Peptides
 ===================================
 
 Utility package to predict the Enzymatic Classification (EC) number for a given amino acid sequence.
@@ -9,8 +9,7 @@ occurring on enzymes only.
 
 To use our algorithm, please clone it from Github as follows:
  
- 
-** git clone https://github.com/uri-weingart/ESPs.git **
+git clone https://github.com/uri-weingart/ESPs.git
  
 Please install the following python dependencies:
  
@@ -32,5 +31,8 @@ Please install the following python dependencies:
 - treelib
    
 We provide a fasta test file named ** test.fasta** containing 100 enzymes downloaded from Swissprot.
-
 They can be located in the data directory 
+
+To run:
+
+python ESPs.py -i data/test.fasta
