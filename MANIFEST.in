@@ -1,2 +1,0 @@
-include src/ESPs_package/data/*.json
-include src/ESPs_package/data/*.fasta
