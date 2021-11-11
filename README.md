@@ -14,24 +14,43 @@ git clone https://github.com/uri-weingart/ESPs.git
 Please install the following python dependencies:
  
 -import sys
+
 -import pdb
+
 -import json
+
 -import Bio
+
 -from Bio import SeqIO
+
 -import datetime
+
 -import platform
+
 -import re
+
 -import pandas as pd
+
 -import numpy as np
+
 -import string
+
 -import collections
+
 -from collections import Counter
+
 -import argparse
+
 -from toolz import unique
+
 -import operator
+
 -from functools import reduce
+
 -import treelib
+
 -from treelib import Node, Tree
+
    
 We provide a fasta test file  in the data directory named  test.fasta  containing 100 enzymes downloaded from Swissprot.
   
