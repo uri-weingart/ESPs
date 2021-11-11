@@ -31,7 +31,7 @@ def read_params(x):
 	   nargs = '?',
 	   help='Input proteins file name (Format: fasta)   Default = Input.fasta',
 	   required = False,
-	   default="Input.fasta")
+	   default="data/test.fasta")
 	   
 	parser.add_argument('-dSPs',   '--Input_dSPs_json' ,  
 	   action = "store",
@@ -39,7 +39,7 @@ def read_params(x):
 	   nargs = '?',
 	   help='json file containing all the SPs (Provided by the package) - Default =  dSPs.json',
 	   required = False,
-	   default = "dSPs.json")
+	   default = "ESPs.json")
 
 	parser.add_argument('-o',   '--Output' ,  
 	   action = "store",
