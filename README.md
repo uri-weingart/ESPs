@@ -7,7 +7,7 @@ We follow our methodology developed and tested in the past, pointing out the
 existence of **Specific Peptides (SPs)**  which are motifs of length ≥ 7 amino acids,
 occurring on enzymes only.
  
-You can refer to our [article](https://https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
+You can refer to our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
 
 To use our algorithm, please clone it from Github as follows:
  
