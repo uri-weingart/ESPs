@@ -15,6 +15,10 @@ Please install the required Python dependencies, outlined in the file requiremen
  
 We provide a fasta test file  in the data directory named  test.fasta  containing 100 enzymes downloaded from Swissprot.
 
-To run:
+# To run:
 
-python ESPs.py -i <your_fasta_file.fasta>
+### python ESPs.py -i <your_fasta_file.fasta>
+  
+To use the example file provided:
+
+### python ESPs.py -i data/test.fasta
