@@ -15,7 +15,7 @@ git clone https://github.com/uri-weingart/ESPs.git
  
 Please install the required Python dependencies, outlined in the file requirements.txt
  
-We provide a fasta test file  in the data directory named  test.fasta  containing 100 enzymes downloaded from Swissprot.
+We provide a fasta test file  in the data directory named  test.fasta  containing 20 enzymes downloaded from Swissprot.
 
 # To run:
 
