@@ -24,3 +24,5 @@ We provide a fasta test file  in the data directory named  test.fasta  containin
 To use the example file provided:
 
 ### python ESPs.py -i data/test.fasta
+
+Results of analysis for the test file provided can be browsed [here](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
