@@ -26,3 +26,10 @@ To use the example file provided:
 ### python ESPs.py -i data/test.fasta
 
 Results of analysis for the test file provided can be browsed [here](https://github.com/uri-weingart/ESPs/blob/main/Hits_Summary.pdf/).
+
+In addition,  we provide a json dictionary to use to search for GPCD and Zinc Finger SPs.
+
+It can be used as follows:
+
+
+### python ESPs.py -i <your_fasta_file.fasta> -d /src/data/dGPCR_ZFs.json
