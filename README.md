@@ -7,7 +7,7 @@ This is a utility package to allow for deducing protein classification from its 
 The methodology is described in our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
  It can be applied to **Enzyme Classification** (using ESPs), and classification of **GPCR** proteins (using GSPs) and **Z finger proteins** (using ZSPs).
 
-##Usage
+## Usage
 
 To use our algorithm, please clone it from Github as follows:
  
