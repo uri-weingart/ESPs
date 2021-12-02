@@ -5,9 +5,9 @@ Specific Peptides
 
 This is a utility package to allow for deducing protein classification from its given amino acid sequence. 
 The methodology is described in our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
- It can be applied to **Enzyme Classification** (using ESPs), and classification of **GPCR ** proteins (using GSPs) and **Z finger proteins** (using ZSPs).
+ It can be applied to **Enzyme Classification** (using ESPs), and classification of **GPCR** proteins (using GSPs) and **Z finger proteins** (using ZSPs).
 
-#Usage
+##Usage
 
 To use our algorithm, please clone it from Github as follows:
  
@@ -17,15 +17,15 @@ Please install the required Python dependencies, outlined in the file requiremen
  
 We provide a fasta test file  in the data directory named  test.fasta  containing 20 enzymes downloaded from Swissprot.
 
-# ESP searches
+## ESP searches
 
 ### python SPs.py -i <your_fasta_file.fasta>
   
-# GSP   searches
+## GSP   searches
  
 ### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dGPCRs.json
 
-# ZSP   searches
+## ZSP   searches
 
 ### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dZFs.json
  
