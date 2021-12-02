@@ -1,7 +1,7 @@
 Specific Peptides
 =============
 
-#General
+# General
 
 This is a utility package to allow for deducing protein classification from its given amino acid sequence. 
 The methodology is described in our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
@@ -19,13 +19,15 @@ We provide a fasta test file  in the data directory named  test.fasta  containin
 
 ## ESP searches
 
+Go to the **src** directory
+
 ### python SPs.py -i <your_fasta_file.fasta>
   
 ## GSP   searches
  
-### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dGPCRs.json
+### python SPs.py -i <your_fasta_file.fasta> -d  dGPCRs.json
 
 ## ZSP   searches
 
-### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dZFs.json
+### python SPs.py -i <your_fasta_file.fasta> -d  dZFs.json
  
