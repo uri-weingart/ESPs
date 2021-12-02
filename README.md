@@ -1,13 +1,13 @@
-SPs:   Enzymatic Specific Peptides
-===================================
+Specific Peptides
+=============
 
-Utility package to predict the Enzymatic Classification (EC) number for a given amino acid sequence.
+#General
 
-We follow our methodology developed and tested in the past, pointing out the
-existence of **Specific Peptides (SPs)**  which are motifs of length ≥ 7 amino acids,
-occurring on enzymes only.
- 
-You can refer to our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
+This is a utility package to allow for deducing protein classification from its given amino acid sequence. 
+The methodology is described in our [article](https://github.com/uri-weingart/ESPs/blob/main/Specific_Peptides_Perspective_of_Proteins.pdf/).
+ It can be applied to **Enzyme Classification** (using ESPs), and classification of **GPCR ** proteins (using GSPs) and **Z finger proteins** (using ZSPs).
+
+#Usage
 
 To use our algorithm, please clone it from Github as follows:
  
@@ -17,19 +17,15 @@ Please install the required Python dependencies, outlined in the file requiremen
  
 We provide a fasta test file  in the data directory named  test.fasta  containing 20 enzymes downloaded from Swissprot.
 
-# To run:
+# ESP searches
 
-### python ESPs.py -i <your_fasta_file.fasta>
+### python SPs.py -i <your_fasta_file.fasta>
   
-To use the example file provided:
+# GSP   searches
+ 
+### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dGPCRs.json
 
-### python ESPs.py -i data/test.fasta
+# ZSP   searches
 
-Results of analysis for the test file provided can be browsed [here](https://github.com/uri-weingart/ESPs/blob/main/Hits_Summary.pdf/).
-
-In addition,  we provide a json dictionary to use to search for GPCD and Zinc Finger SPs.
-
-It can be used as follows:
-
-
-### python ESPs.py -i <your_fasta_file.fasta> -d /src/data/dGPCR_ZFs.json
+### python SPs.py -i <your_fasta_file.fasta> -d  src/data/dZFs.json
+ 
