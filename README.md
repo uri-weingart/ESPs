@@ -15,7 +15,13 @@ git clone https://github.com/uri-weingart/ESPs.git
  
 Please install the required Python dependencies, outlined in the file requirements.txt
  
-We provide a fasta test file  in the data directory named  test.fasta  containing 20 enzymes downloaded from Swissprot.
+We provide provide three sample in the **src/data** directory  containing test fasta files taken from Swissprot:
+
+### **test.fasta** to demonstrate**Enzymatic** sample searches
+
+### **GPCR_Test.fasta** to demonstrate* **GPCR** sample searches
+
+### **ZFs_Test.fasta** to demonstrate  **Zinc Fingers** sample searches
 
 ## ESP searches
 
@@ -27,7 +33,14 @@ Go to the **src** directory
  
 ### python SPs.py -i <your_fasta_file.fasta> -d  dGPCRs.json
 
+## Example:
+
+ ### python SPs.py -i src/data/ GPCR_Test.fasta  -d  dGPCRs.json
+
 ## ZSP   searches
 
 ### python SPs.py -i <your_fasta_file.fasta> -d  dZFs.json
  
+## Example:
+
+## python SPs.py -i  src/data/ZFs_Test.fasta -d  dZFs.json
