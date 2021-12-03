@@ -27,20 +27,20 @@ We provide provide three sample in the **src/data** directory  containing test f
 
 ### In the src directory you can issue any of the following commands:
 
-### python SPs.py -i <your_fasta_file.fasta>
+python SPs.py -i <your_fasta_file.fasta>
   
 ## GSP   searches
  
-### python SPs.py -i <your_fasta_file.fasta> -d  dGPCRs.json
+python SPs.py -i <your_fasta_file.fasta> -d  dGPCRs.json
 
 ## Example:
 
- ### python SPs.py -i src/data/ GPCR_Test.fasta  -d  dGPCRs.json
+python SPs.py -i src/data/ GPCR_Test.fasta  -d  dGPCRs.json
 
 ## ZSP   searches
 
-### python SPs.py -i <your_fasta_file.fasta> -d  dZFs.json
+python SPs.py -i <your_fasta_file.fasta> -d  dZFs.json
  
 ## Example:
 
-## python SPs.py -i  src/data/ZFs_Test.fasta -d  dZFs.json
+python SPs.py -i  src/data/ZFs_Test.fasta -d  dZFs.json
