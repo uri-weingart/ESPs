@@ -33,7 +33,7 @@ python SPs.py -i <your_fasta_file.fasta>
  
 python SPs.py -i <your_fasta_file.fasta> -d  dGPCRs.json
 
-## Example:
+### Example:
 
 python SPs.py -i src/data/ GPCR_Test.fasta  -d  dGPCRs.json
 
@@ -41,6 +41,6 @@ python SPs.py -i src/data/ GPCR_Test.fasta  -d  dGPCRs.json
 
 python SPs.py -i <your_fasta_file.fasta> -d  dZFs.json
  
-## Example:
+### Example:
 
 python SPs.py -i  src/data/ZFs_Test.fasta -d  dZFs.json
