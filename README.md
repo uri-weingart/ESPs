@@ -17,11 +17,11 @@ Please install the required Python dependencies, outlined in the file requiremen
  
 We provide provide three sample in the **src/data** directory  containing test fasta files taken from Swissprot:
 
-**test.fasta** to demonstrate **Enzymatic** sample searches
+**test.fasta** to demonstrate **Enzymatic** sample searches. Results for this search can be reviewed [here](https://github.com/uri-weingart/SPs/blob/main/ESPs_Hits_Summary.pdf/).
 
-**GPCR_Test.fasta** to demonstrate **GPCR** sample searches
+**GPCR_Test.fasta** to demonstrate **GPCR** sample searches.  [GPCR_Results](https://github.com/uri-weingart/SPs/blob/main/GPCR_Hits_Summary.pdf/).
 
-**ZFs_Test.fasta** to demonstrate  **Zinc Fingers** sample searches
+**ZFs_Test.fasta** to demonstrate  **Zinc Fingers** sample searches. [ZF_Results](https://github.com/uri-weingart/SPs/blob/main/ZF_Hits_Summary.pdf/).
 
 ## ESP searches
 
