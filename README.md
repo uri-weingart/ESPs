@@ -9,13 +9,16 @@ The methodology is described in our [article](https://github.com/uri-weingart/SP
 
 ## Usage
 
+
 To use our algorithm, please clone it from Github as follows:
  
 git clone https://github.com/uri-weingart/SPs.git
  
 Please install the required Python dependencies, outlined in the file requirements.txt
+
+
  
-We provide provide three sample in the **src/data** directory  containing test fasta files taken from Swissprot:
+We provide provide three samples in the **src/data** directory  containing test fasta files taken from Swissprot:
 
 **test.fasta** to demonstrate **Enzymatic** sample searches. Results for this search can be reviewed [here](https://github.com/uri-weingart/SPs/blob/main/ESPs_Hits_Summary.pdf/).
 

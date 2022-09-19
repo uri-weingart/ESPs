@@ -1,3 +1,17 @@
+For the fast  version of the program (Predict_ECs.py)  please verify the following python dependencies are installed:
+ sys
+ json
+ Bio
+ datetime
+ platform
+ string
+ argparse
+ treelib
+ pickle
+ ahocorasick
+
+
+For the extended version of the program(SPs.py) please verify the following python dependencies are installed
 Bio 
 argparse
 collections
@@ -14,3 +28,7 @@ string
 sys
 toolz
 treelib
+
+
+
+ 
