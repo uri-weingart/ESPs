@@ -39,7 +39,7 @@ Use the following command:
 
 **python Predict_ECs.py** 
 
-This will run the search algorithm against the Positive Test file, which contains 25,309 enzymes annotated in SwissProt (See the article for its detailed description)
+This will run the search algorithm against the Positive Test file, which contains 25,309 enzymes annotated in SwissProt. It took 7 seconds to run this file on an I7 Windows laptop (See the article for its detailed description)
 
 To run against another fasta file use the following command:
 
