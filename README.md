@@ -26,10 +26,11 @@ Please unzip the following files:
 
 
 We offer two run modes:
+=======================
 
-1. Quick 
+**1. Quick** 
 
-2. Extended
+**2. Extended**
 
 Quick run mode
 ==============
