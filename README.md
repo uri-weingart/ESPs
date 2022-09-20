@@ -1,5 +1,5 @@
 Specific Peptides
-=============
+=================
 
 # General
 
@@ -25,7 +25,24 @@ Please unzip the following files:
 3. ESPs.zip
 
 
+We offer two run modes:
 
+1. Quick 
+
+2. Extended
+
+Quick run mode
+==============
+
+Use the following command:
+
+**python Predict_ECs.py** 
+
+This will run the search algorithm against the Positive Test file, which contains 25,309 enzymes annotated in SwissProt (See the article for its detailed description)
+
+
+Extended run mode
+=================
 
  
 We provide provide three samples in the **src/data** directory  containing test fasta files taken from Swissprot:
