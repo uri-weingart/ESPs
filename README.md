@@ -16,6 +16,16 @@ git clone https://github.com/uri-weingart/SPs.git
  
 Please install the required Python dependencies, outlined in the file requirements.txt
 
+Please unzip the following files:
+
+1. ESPs_Automaton_Pickle_Augmented.zip
+
+2. ESPs_Augmented.zip
+
+3. ESPs.zip
+
+
+
 
  
 We provide provide three samples in the **src/data** directory  containing test fasta files taken from Swissprot:
