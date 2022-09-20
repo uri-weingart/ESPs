@@ -9,6 +9,8 @@ import treelib
 from treelib import Node, Tree
 import pickle
 import ahocorasick
+import Bio
+from Bio import SeqIO
 ##########################################################################
 #   Decode input parms                                                                        #
 ##########################################################################

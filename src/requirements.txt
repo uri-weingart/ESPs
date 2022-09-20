@@ -9,6 +9,8 @@ For the fast  version of the program (Predict_ECs.py)  please verify the followi
  treelib
  pickle
  ahocorasick
+ import Bio
+ from Bio import SeqIO
 
 
 For the extended version of the program(SPs.py) please verify the following python dependencies are installed
