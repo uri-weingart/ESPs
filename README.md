@@ -46,6 +46,14 @@ To run against another fasta file use the following command:
 **python Predict_ECs.py  -i  Your_Input_Fasta_File** 
 
 
+To override the output file neme use the -o option:
+
+**python Predict_ECs.py  -i  Your_Input_Fasta_File  -o Your_output_File.csv** 
+
+To override the threshold coverage length to generate a prediction (Default is 7) use the --SP_Len_Thresh option.  Increasing it raises the precision but reduces recall   
+
+**python Predict_ECs.py  -i  Your_Input_Fasta_File  -o Your_output_File.csv  --SP_Len_Thresh 9** 
+
 Extended run mode
 =================
 
